@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QA Automation Task - Flipkart Automation Test">
+
+	<listeners>
+		<listener class-name="com.flipkart.ExtentReport.ExtentReporterNG" />
+	</listeners>
+	<test name="Flipkart Automation Test Cases">
+		<classes>
+			<class name="com.flipkart.testcases.GoogleSearchTest"></class>
+			<class name="com.flipkart.testcases.FlipkartTest"></class>
+			<class name="com.flipkart.testcases.AddToCartTest"></class>
+			<class name="com.flipkart.testcases.MyCartTest">
+				<parameter name="pincode1" value="380055"></parameter>
+				<parameter name="pincode2" value="380051"></parameter>
+			</class>
+		</classes>
+	</test>
+</suite>

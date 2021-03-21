@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link">
+              <span class="suite-name border-failed">QA Automation Task - Flipkart Automation Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link ">
+                    <span>C:\Users\WFH\eclipse-workspace\FlipkartTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-QA_Automation_Task_-_Flipkart_Automation_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" class="hide-methods failed suite-QA_Automation_Task_-_Flipkart_Automation_Test"> (hide)</a> <!-- hide-methods failed suite-QA_Automation_Task_-_Flipkart_Automation_Test -->
+                      <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" class="show-methods failed suite-QA_Automation_Task_-_Flipkart_Automation_Test"> (show)</a> <!-- show-methods failed suite-QA_Automation_Task_-_Flipkart_Automation_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-QA_Automation_Task_-_Flipkart_Automation_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.MyCartTest" class="method navigator-link" hash-for-method="VerifyPincode">VerifyPincode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-QA_Automation_Task_-_Flipkart_Automation_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" class="hide-methods passed suite-QA_Automation_Task_-_Flipkart_Automation_Test"> (hide)</a> <!-- hide-methods passed suite-QA_Automation_Task_-_Flipkart_Automation_Test -->
+                      <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" class="show-methods passed suite-QA_Automation_Task_-_Flipkart_Automation_Test"> (show)</a> <!-- show-methods passed suite-QA_Automation_Task_-_Flipkart_Automation_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-QA_Automation_Task_-_Flipkart_Automation_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.FlipkartTest" class="method navigator-link" hash-for-method="CloseLoginPopup">CloseLoginPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.FlipkartTest" class="method navigator-link" hash-for-method="CompareSelectedItem">CompareSelectedItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.GoogleSearchTest" class="method navigator-link" hash-for-method="PrintSearchOptionsAndSubmitSearch">PrintSearchOptionsAndSubmitSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.AddToCartTest" class="method navigator-link" hash-for-method="VerifyAddToCart">VerifyAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.GoogleSearchTest" class="method navigator-link" hash-for-method="VerifyGoogleSearch">VerifyGoogleSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.GoogleSearchTest" class="method navigator-link" hash-for-method="clickOnFlipkartLink">clickOnFlipkartLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.FlipkartTest" class="method navigator-link" hash-for-method="goToWindowsAc">goToWindowsAc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.GoogleSearchTest" class="method navigator-link" hash-for-method="searchFlipkart">searchFlipkart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" title="com.flipkart.testcases.GoogleSearchTest" class="method navigator-link" hash-for-method="verifyTitleAfterFlipkartSearch">verifyTitleAfterFlipkartSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QA_Automation_Task_-_Flipkart_Automation_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel QA_Automation_Task_-_Flipkart_Automation_Test">
+          <div class="suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.flipkart.testcases.MyCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPincode">
+                  </a> <!-- VerifyPincode -->
+                  <span class="method-name">VerifyPincode</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@placeholder=&apos;Enter delivery pincode&apos;]&quot;}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;KNPC13&apos;, ip: &apos;192.168.42.206&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\WFH\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97c3d78c6ace653b8b9d7694af797630
+*** Element info: {Using=xpath, value=//input[@placeholder=&apos;Enter delivery pincode&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.clear(Unknown Source)
+	at com.flipkart.pages.MyCartPage.enterPincode(MyCartPage.java:47)
+	at com.flipkart.testcases.MyCartTest.VerifyPincode(MyCartTest.java:25)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-failed -->
+          <div class="suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.testcases.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAddToCart">
+                  </a> <!-- VerifyAddToCart -->
+                  <span class="method-name">VerifyAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-passed -->
+          <div class="suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.testcases.FlipkartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseLoginPopup">
+                  </a> <!-- CloseLoginPopup -->
+                  <span class="method-name">CloseLoginPopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CompareSelectedItem">
+                  </a> <!-- CompareSelectedItem -->
+                  <span class="method-name">CompareSelectedItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToWindowsAc">
+                  </a> <!-- goToWindowsAc -->
+                  <span class="method-name">goToWindowsAc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-passed -->
+          <div class="suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flipkart.testcases.GoogleSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="PrintSearchOptionsAndSubmitSearch">
+                  </a> <!-- PrintSearchOptionsAndSubmitSearch -->
+                  <span class="method-name">PrintSearchOptionsAndSubmitSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGoogleSearch">
+                  </a> <!-- VerifyGoogleSearch -->
+                  <span class="method-name">VerifyGoogleSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnFlipkartLink">
+                  </a> <!-- clickOnFlipkartLink -->
+                  <span class="method-name">clickOnFlipkartLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFlipkart">
+                  </a> <!-- searchFlipkart -->
+                  <span class="method-name">searchFlipkart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleAfterFlipkartSearch">
+                  </a> <!-- verifyTitleAfterFlipkartSearch -->
+                  <span class="method-name">verifyTitleAfterFlipkartSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QA_Automation_Task_-_Flipkart_Automation_Test-class-passed -->
+        </div> <!-- panel QA_Automation_Task_-_Flipkart_Automation_Test -->
+        <div panel-name="test-xml-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\WFH\eclipse-workspace\FlipkartTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;QA Automation Task - Flipkart Automation Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.flipkart.ExtentReport.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Flipkart Automation Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flipkart.testcases.GoogleSearchTest&quot;/&gt;
+      &lt;class name=&quot;com.flipkart.testcases.FlipkartTest&quot;/&gt;
+      &lt;class name=&quot;com.flipkart.testcases.AddToCartTest&quot;/&gt;
+      &lt;class name=&quot;com.flipkart.testcases.MyCartTest&quot;&gt;
+        &lt;parameter name=&quot;pincode1&quot; value=&quot;380055&quot;/&gt;
+        &lt;parameter name=&quot;pincode2&quot; value=&quot;380051&quot;/&gt;
+      &lt;/class&gt; &lt;!-- com.flipkart.testcases.MyCartTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flipkart Automation Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- QA Automation Task - Flipkart Automation Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QA Automation Task - Flipkart Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Flipkart Automation Test Cases (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QA Automation Task - Flipkart Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QA Automation Task - Flipkart Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QA_Automation_Task_-_Flipkart_Automation_Test');
+function tableData_QA_Automation_Task_-_Flipkart_Automation_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyAddToCart')
+data.setCell(0, 2, 'com.flipkart.testcases.AddToCartTest')
+data.setCell(0, 3, 42898);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CompareSelectedItem')
+data.setCell(1, 2, 'com.flipkart.testcases.FlipkartTest')
+data.setCell(1, 3, 33372);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyPincode')
+data.setCell(2, 2, 'com.flipkart.testcases.MyCartTest')
+data.setCell(2, 3, 20245);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'PrintSearchOptionsAndSubmitSearch')
+data.setCell(3, 2, 'com.flipkart.testcases.GoogleSearchTest')
+data.setCell(3, 3, 9323);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickOnFlipkartLink')
+data.setCell(4, 2, 'com.flipkart.testcases.GoogleSearchTest')
+data.setCell(4, 3, 3077);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CloseLoginPopup')
+data.setCell(5, 2, 'com.flipkart.testcases.FlipkartTest')
+data.setCell(5, 3, 2439);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'goToWindowsAc')
+data.setCell(6, 2, 'com.flipkart.testcases.FlipkartTest')
+data.setCell(6, 3, 725);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchFlipkart')
+data.setCell(7, 2, 'com.flipkart.testcases.GoogleSearchTest')
+data.setCell(7, 3, 251);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyGoogleSearch')
+data.setCell(8, 2, 'com.flipkart.testcases.GoogleSearchTest')
+data.setCell(8, 3, 159);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyTitleAfterFlipkartSearch')
+data.setCell(9, 2, 'com.flipkart.testcases.GoogleSearchTest')
+data.setCell(9, 3, 80);
+window.suiteTableData['QA_Automation_Task_-_Flipkart_Automation_Test']= { tableData: data, tableDiv: 'times-div-QA_Automation_Task_-_Flipkart_Automation_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-QA_Automation_Task_-_Flipkart_Automation_Test">
+              </div> <!-- times-div-QA_Automation_Task_-_Flipkart_Automation_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QA Automation Task - Flipkart Automation Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QA_Automation_Task_-_Flipkart_Automation_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.testcases.GoogleSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">VerifyGoogleSearch</span>
+                <span class="method-start">7675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchFlipkart</span>
+                <span class="method-start">7841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PrintSearchOptionsAndSubmitSearch</span>
+                <span class="method-start">8094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleAfterFlipkartSearch</span>
+                <span class="method-start">17420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnFlipkartLink</span>
+                <span class="method-start">17502 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.testcases.FlipkartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CloseLoginPopup</span>
+                <span class="method-start">20581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goToWindowsAc</span>
+                <span class="method-start">23023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CompareSelectedItem</span>
+                <span class="method-start">23752 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.testcases.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyAddToCart</span>
+                <span class="method-start">57127 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flipkart.testcases.MyCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyPincode</span>
+                <span class="method-start">100028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121068 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

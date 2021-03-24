@@ -51,10 +51,10 @@ public class GoogleHomePage extends TestBase{
 		return driver.getTitle();
 	}
 	
-	public FlipkartHomePage clickOnFlipkartLink() {
+	public void clickOnFlipkartLink() {
 		
 		flipkartLink.click();
-		return new FlipkartHomePage();
+		//return new FlipkartHomePage();
 		
 	}
 	

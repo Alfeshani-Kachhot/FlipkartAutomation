@@ -17,13 +17,12 @@ public class MyCartTest extends TestBase{
 		super();
 	}
 	
-	@Test(priority=10)
-	@Parameters({"pincode1","pincode2"})
-	public void VerifyPincode() {
+	@Test(priority=11)
+	public void VerifyPincode() throws InterruptedException {
 		
 		myCartPage=new MyCartPage();
-		myCartPage.enterPincode("pincode1");
-		myCartPage.enterPincode("pincode2");
+		myCartPage.enterPincode("380055");
+		myCartPage.enterPincode("380051");
 		
 	}
 	

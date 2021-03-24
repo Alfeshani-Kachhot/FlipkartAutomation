@@ -47,7 +47,7 @@ public class GoogleSearchTest extends TestBase {
 	
 	@Test(priority=5)
 	public void clickOnFlipkartLink() {
-		flipkartHomepage= googleHome.clickOnFlipkartLink();
+		 googleHome.clickOnFlipkartLink();
 		
 	}
 	

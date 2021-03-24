@@ -17,8 +17,13 @@ public class AddToCartTest extends TestBase{
 	}
 	
 	@Test(priority=9)
-	public void VerifyAddToCart() {
+	public void verifyProductNameandPrice() {
 		addToCartPage=new AddToCartPage();
+		addToCartPage.PrintProductNameAndPrice();
+	}
+	@Test(priority=10)
+	public void VerifyAddToCart() {
+		
 		myCartPage=addToCartPage.clickOnAddToCart();
 	}
 	

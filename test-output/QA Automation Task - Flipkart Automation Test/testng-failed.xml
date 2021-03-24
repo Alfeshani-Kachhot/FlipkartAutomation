@@ -7,8 +7,6 @@
   <test thread-count="5" name="Flipkart Automation Test Cases(failed)">
     <classes>
       <class name="com.flipkart.testcases.MyCartTest">
-        <parameter name="pincode1" value="380055"/>
-        <parameter name="pincode2" value="380051"/>
         <methods>
           <include name="tearDown"/>
           <include name="VerifyPincode"/>

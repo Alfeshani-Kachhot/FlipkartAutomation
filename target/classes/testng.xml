@@ -11,8 +11,6 @@
 			<class name="com.flipkart.testcases.FlipkartTest"></class>
 			<class name="com.flipkart.testcases.AddToCartTest"></class>
 			<class name="com.flipkart.testcases.MyCartTest">
-				<parameter name="pincode1" value="380055"></parameter>
-				<parameter name="pincode2" value="380051"></parameter>
 			</class>
 		</classes>
 	</test>

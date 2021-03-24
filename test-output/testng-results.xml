@@ -1,133 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-21T16:40:47Z" name="QA Automation Task - Flipkart Automation Test" finished-at="2021-03-21T16:42:39Z" duration-ms="112676">
+  <suite started-at="2021-03-22T14:46:54Z" name="QA Automation Task - Flipkart Automation Test" finished-at="2021-03-22T14:48:40Z" duration-ms="106169">
     <groups>
     </groups>
-    <test started-at="2021-03-21T16:40:47Z" name="Flipkart Automation Test Cases" finished-at="2021-03-21T16:42:39Z" duration-ms="112676">
+    <test started-at="2021-03-22T14:46:54Z" name="Flipkart Automation Test Cases" finished-at="2021-03-22T14:48:40Z" duration-ms="106169">
       <class name="com.flipkart.testcases.GoogleSearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipkart.testcases.GoogleSearchTest@610f7aa]" started-at="2021-03-21T16:40:39Z" name="setup" finished-at="2021-03-21T16:40:47Z" duration-ms="7614" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.flipkart.testcases.GoogleSearchTest@623a8092]" started-at="2021-03-22T14:46:47Z" name="setup" finished-at="2021-03-22T14:46:54Z" duration-ms="6557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyGoogleSearch()[pri:1, instance:com.flipkart.testcases.GoogleSearchTest@610f7aa]" started-at="2021-03-21T16:40:47Z" name="VerifyGoogleSearch" finished-at="2021-03-21T16:40:47Z" duration-ms="159" status="PASS">
+        <test-method signature="VerifyGoogleSearch()[pri:1, instance:com.flipkart.testcases.GoogleSearchTest@623a8092]" started-at="2021-03-22T14:46:54Z" name="VerifyGoogleSearch" finished-at="2021-03-22T14:46:54Z" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyGoogleSearch -->
-        <test-method signature="searchFlipkart()[pri:2, instance:com.flipkart.testcases.GoogleSearchTest@610f7aa]" started-at="2021-03-21T16:40:47Z" name="searchFlipkart" finished-at="2021-03-21T16:40:47Z" duration-ms="251" status="PASS">
+        <test-method signature="searchFlipkart()[pri:2, instance:com.flipkart.testcases.GoogleSearchTest@623a8092]" started-at="2021-03-22T14:46:54Z" name="searchFlipkart" finished-at="2021-03-22T14:46:54Z" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlipkart -->
-        <test-method signature="PrintSearchOptionsAndSubmitSearch()[pri:3, instance:com.flipkart.testcases.GoogleSearchTest@610f7aa]" started-at="2021-03-21T16:40:47Z" name="PrintSearchOptionsAndSubmitSearch" finished-at="2021-03-21T16:40:56Z" duration-ms="9323" status="PASS">
+        <test-method signature="PrintSearchOptionsAndSubmitSearch()[pri:3, instance:com.flipkart.testcases.GoogleSearchTest@623a8092]" started-at="2021-03-22T14:46:54Z" name="PrintSearchOptionsAndSubmitSearch" finished-at="2021-03-22T14:46:58Z" duration-ms="3866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PrintSearchOptionsAndSubmitSearch -->
-        <test-method signature="verifyTitleAfterFlipkartSearch()[pri:4, instance:com.flipkart.testcases.GoogleSearchTest@610f7aa]" started-at="2021-03-21T16:40:56Z" name="verifyTitleAfterFlipkartSearch" finished-at="2021-03-21T16:40:57Z" duration-ms="80" status="PASS">
+        <test-method signature="verifyTitleAfterFlipkartSearch()[pri:4, instance:com.flipkart.testcases.GoogleSearchTest@623a8092]" started-at="2021-03-22T14:46:58Z" name="verifyTitleAfterFlipkartSearch" finished-at="2021-03-22T14:46:58Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleAfterFlipkartSearch -->
-        <test-method signature="clickOnFlipkartLink()[pri:5, instance:com.flipkart.testcases.GoogleSearchTest@610f7aa]" started-at="2021-03-21T16:40:57Z" name="clickOnFlipkartLink" finished-at="2021-03-21T16:41:00Z" duration-ms="3077" status="PASS">
+        <test-method signature="clickOnFlipkartLink()[pri:5, instance:com.flipkart.testcases.GoogleSearchTest@623a8092]" started-at="2021-03-22T14:46:58Z" name="clickOnFlipkartLink" finished-at="2021-03-22T14:47:00Z" duration-ms="2535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnFlipkartLink -->
       </class> <!-- com.flipkart.testcases.GoogleSearchTest -->
       <class name="com.flipkart.testcases.FlipkartTest">
-        <test-method signature="CloseLoginPopup()[pri:6, instance:com.flipkart.testcases.FlipkartTest@6a03bcb1]" started-at="2021-03-21T16:41:00Z" name="CloseLoginPopup" finished-at="2021-03-21T16:41:02Z" duration-ms="2439" status="PASS">
+        <test-method signature="CloseLoginPopup()[pri:6, instance:com.flipkart.testcases.FlipkartTest@a1cdc6d]" started-at="2021-03-22T14:47:00Z" name="CloseLoginPopup" finished-at="2021-03-22T14:47:01Z" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseLoginPopup -->
-        <test-method signature="goToWindowsAc()[pri:7, instance:com.flipkart.testcases.FlipkartTest@6a03bcb1]" started-at="2021-03-21T16:41:02Z" name="goToWindowsAc" finished-at="2021-03-21T16:41:03Z" duration-ms="725" status="PASS">
+        <test-method signature="goToWindowsAc()[pri:7, instance:com.flipkart.testcases.FlipkartTest@a1cdc6d]" started-at="2021-03-22T14:47:01Z" name="goToWindowsAc" finished-at="2021-03-22T14:47:01Z" duration-ms="600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToWindowsAc -->
-        <test-method signature="CompareSelectedItem()[pri:8, instance:com.flipkart.testcases.FlipkartTest@6a03bcb1]" started-at="2021-03-21T16:41:03Z" name="CompareSelectedItem" finished-at="2021-03-21T16:41:36Z" duration-ms="33372" status="PASS">
+        <test-method signature="CompareSelectedItem()[pri:8, instance:com.flipkart.testcases.FlipkartTest@a1cdc6d]" started-at="2021-03-22T14:47:01Z" name="CompareSelectedItem" finished-at="2021-03-22T14:47:34Z" duration-ms="32960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompareSelectedItem -->
       </class> <!-- com.flipkart.testcases.FlipkartTest -->
       <class name="com.flipkart.testcases.AddToCartTest">
-        <test-method signature="VerifyAddToCart()[pri:9, instance:com.flipkart.testcases.AddToCartTest@21b2e768]" started-at="2021-03-21T16:41:36Z" name="VerifyAddToCart" finished-at="2021-03-21T16:42:19Z" duration-ms="42898" status="PASS">
+        <test-method signature="verifyProductNameandPrice()[pri:9, instance:com.flipkart.testcases.AddToCartTest@175b9425]" started-at="2021-03-22T14:47:34Z" name="verifyProductNameandPrice" finished-at="2021-03-22T14:47:34Z" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductNameandPrice -->
+        <test-method signature="VerifyAddToCart()[pri:10, instance:com.flipkart.testcases.AddToCartTest@175b9425]" started-at="2021-03-22T14:47:34Z" name="VerifyAddToCart" finished-at="2021-03-22T14:48:26Z" duration-ms="52120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAddToCart -->
       </class> <!-- com.flipkart.testcases.AddToCartTest -->
       <class name="com.flipkart.testcases.MyCartTest">
-        <test-method signature="VerifyPincode()[pri:10, instance:com.flipkart.testcases.MyCartTest@57250572]" started-at="2021-03-21T16:42:19Z" name="VerifyPincode" finished-at="2021-03-21T16:42:39Z" duration-ms="20245" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter delivery pincode']"}
-  (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KNPC13', ip: '192.168.42.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\WFH\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 97c3d78c6ace653b8b9d7694af797630
-*** Element info: {Using=xpath, value=//input[@placeholder='Enter delivery pincode']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='Enter delivery pincode']"}
-  (Session info: chrome=89.0.4389.90)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KNPC13', ip: '192.168.42.206', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\WFH\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:59080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 97c3d78c6ace653b8b9d7694af797630
-*** Element info: {Using=xpath, value=//input[@placeholder='Enter delivery pincode']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy13.clear(Unknown Source)
-at com.flipkart.pages.MyCartPage.enterPincode(MyCartPage.java:47)
-at com.flipkart.testcases.MyCartTest.VerifyPincode(MyCartTest.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="VerifyPincode()[pri:11, instance:com.flipkart.testcases.MyCartTest@3098cf3b]" started-at="2021-03-22T14:48:26Z" name="VerifyPincode" finished-at="2021-03-22T14:48:40Z" duration-ms="13230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPincode -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.MyCartTest@57250572]" started-at="2021-03-21T16:42:40Z" name="tearDown" finished-at="2021-03-21T16:42:41Z" duration-ms="1231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.flipkart.testcases.MyCartTest@3098cf3b]" started-at="2021-03-22T14:48:40Z" name="tearDown" finished-at="2021-03-22T14:48:41Z" duration-ms="761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
